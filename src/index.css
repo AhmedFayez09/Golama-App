@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  font-feature-settings: 'ss01' on, 'cv01' on;
+}
+
+::selection {
+  background-color: #00A86B;
+  color: white;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Custom scrollbar for polish */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F7FA;
+}
+::-webkit-scrollbar-thumb {
+  background: #00A86B;
+  border-radius: 999px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.mesh-gradient {
+  background:
+    radial-gradient(40% 50% at 15% 20%, rgba(0, 168, 107, 0.16) 0%, rgba(0, 168, 107, 0) 100%),
+    radial-gradient(35% 45% at 85% 10%, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0) 100%),
+    radial-gradient(50% 60% at 50% 100%, rgba(0, 168, 107, 0.10) 0%, rgba(0, 168, 107, 0) 100%);
+}
+
+.swiper-pagination-bullet {
+  background: #0F172A !important;
+  opacity: 0.2;
+}
+.swiper-pagination-bullet-active {
+  background: #00A86B !important;
+  opacity: 1;
+}
