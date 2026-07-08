@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "BYSTB7RZ5R.com.golamac.golama"
+        ],
+        "components": [
+          {
+            "/": "/product/*"
+          },
+          {
+            "/": "/merchant/*"
+          }
+        ]
+      }
+    ]
+  }
+}

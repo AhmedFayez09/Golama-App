@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.golamac.golama",
+            "sha256_cert_fingerprints": [
+                "EA:D6:60:F3:C5:96:E0:CD:7A:48:F2:21:22:77:D2:89:02:90:85:B9:E4:EF:D4:35:88:FC:6F:24:7B:64:10:2C"
+            ]
+        }
+    }
+]
