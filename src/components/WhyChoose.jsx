@@ -3,16 +3,16 @@ import { X, Check } from 'lucide-react'
 import { APP_NAME } from '../config'
 
 const ROWS = [
-  { label: 'Comparing supplier prices', old: 'Manual calls & spreadsheets', gobar: 'Live comparisons in the app' },
-  { label: 'Placing bulk orders', old: 'Slow paperwork & faxed orders', gobar: 'A few taps, saved templates' },
-  { label: 'Order visibility', old: 'No tracking until it arrives', gobar: 'Real-time status updates' },
-  { label: 'Supplier discovery', old: 'Limited to local contacts', gobar: 'Thousands of verified wholesalers' },
-  { label: 'Payments', old: 'Checks & bank transfers', gobar: 'Secure in-app payments' },
+  { label: 'Comparing supplier prices', old: 'Manual calls & spreadsheets', golama: 'Live comparisons in the app' },
+  { label: 'Placing bulk orders', old: 'Slow paperwork & faxed orders', golama: 'A few taps, saved templates' },
+  { label: 'Order visibility', old: 'No tracking until it arrives', golama: 'Real-time status updates' },
+  { label: 'Supplier discovery', old: 'Limited to local contacts', golama: 'Thousands of verified wholesalers' },
+  { label: 'Payments', old: 'Checks & bank transfers', golama: 'Secure in-app payments' },
 ]
 
 export default function WhyChoose() {
   return (
-    <section id="why-gobar" className="py-24 md:py-32 bg-surface">
+    <section id="why-golama" className="py-24 md:py-32 bg-surface">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mb-16">
           <span className="text-xs font-semibold text-primary uppercase tracking-widest">Why {APP_NAME}</span>
@@ -43,7 +43,7 @@ export default function WhyChoose() {
               </div>
               <div className="p-5 flex items-start gap-2 text-sm text-ink font-medium bg-primary-50/40">
                 <Check className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                {row.gobar}
+                {row.golama}
               </div>
             </motion.div>
           ))}

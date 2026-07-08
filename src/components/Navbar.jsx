@@ -7,7 +7,7 @@ const LINKS = [
   { label: 'Features', href: '#features' },
   { label: 'How it works', href: '#how-it-works' },
   { label: 'App', href: '#showcase' },
-  { label: `Why ${APP_NAME}`, href: '#why-gobar' },
+  { label: `Why ${APP_NAME}`, href: '#why-golama' },
   { label: 'Reviews', href: '#testimonials' },
 ]
 
